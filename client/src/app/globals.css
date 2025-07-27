@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-border: #c2c2c2;
+  --color-grey: #a6a6a6;
+  --color-dark-grey: #4d4d4d;
+}
+
+body {
+}
+
+.page-container {
+  @apply mx-36 flex flex-col items-center justify-center;
+}
