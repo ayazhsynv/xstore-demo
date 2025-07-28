@@ -10,5 +10,5 @@ body {
 }
 
 .page-container {
-  @apply mx-36 flex flex-col items-center justify-center;
+  @apply 2xl:mx-36 flex flex-col items-center justify-center;
 }

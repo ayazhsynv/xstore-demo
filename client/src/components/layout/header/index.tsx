@@ -29,7 +29,7 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <div className="lg:hidden flex items-center justify-between px-6">
+      <div className="lg:hidden flex items-center justify-between px-6 border-b-1 border-b-border">
         <Image
           src="/icons/menu.svg"
           alt="Menu"
