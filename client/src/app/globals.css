@@ -4,11 +4,12 @@
   --color-border: #c2c2c2;
   --color-grey: #a6a6a6;
   --color-dark-grey: #4d4d4d;
+  --color-grey-text: #666666;
 }
 
 body {
 }
 
 .page-container {
-  @apply 2xl:mx-36 flex flex-col items-center justify-center;
+  @apply 2xl:mx-36 flex flex-col;
 }

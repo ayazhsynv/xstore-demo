@@ -4,6 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-black text-white mx-6 mb-6 px-32 pt-28 pb-8 flex flex-col not-xl:mx-0 not-lg:px-6 not-xl:mb-0">
+      {/* Footer Logo, Contact Info and Links */}
       <div className="pb-10 gap-4 flex flex-row flex-wrap justify-between items-start">
         <div className="flex flex-col gap-10 text-grey max-w-92">
           <Image src="/images/logo-w.png" alt="Logo" width={220} height={74} />
@@ -155,6 +156,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      {/* Footer Copyright Section */}
       <div className="border-t-1 border-t-border pt-2.5 flex flex-wrap justify-between items-center">
         <div className="p-2.5 ">
           Copyright © XStore theme. Created by 8theme - WordPress WooCommerce

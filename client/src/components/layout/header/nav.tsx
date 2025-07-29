@@ -11,7 +11,7 @@ const Nav = () => {
           <Link href="/shop">Products</Link>
         </li>
         <li className="py-7 mx-6">
-          <Link href="/blog">Blog</Link>
+          <Link href="/blogs">Blogs</Link>
         </li>
         <li className="py-7 mx-6">
           <Link href="/about">About</Link>
