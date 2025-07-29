@@ -7,9 +7,6 @@
   --color-grey-text: #666666;
 }
 
-body {
-}
-
 .page-container {
   @apply 2xl:mx-36 flex flex-col;
 }
