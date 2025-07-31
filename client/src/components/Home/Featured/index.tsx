@@ -16,6 +16,7 @@ const HomeFeatured = () => {
       </div>
       {/* Featured Collection Grid*/}
       <div className="flex justify-between text-white not-md:flex-col">
+        {/* Featured Grid Left */}
         <div className="basis-1/2 p-4">
           <Link href="/shop" className="cursor-pointer">
             <div className="bg-[url('/images/featured-image-1.png')] bg-cover bg-center w-full h-170 not-md:h-64 not-sm:p-4 p-16 flex flex-col justify-end">
@@ -27,7 +28,7 @@ const HomeFeatured = () => {
             </div>
           </Link>
         </div>
-
+        {/* Featured Grid Right */}
         <div className="basis-1/2 p-4">
           <Link href="/shop" className="cursor-pointer">
             <div className="bg-[url('/images/featured-image-2.png')] bg-cover bg-center w-full h-170 not-md:h-64 not-sm:p-4 p-16 flex flex-col justify-end">
