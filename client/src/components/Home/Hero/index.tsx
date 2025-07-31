@@ -16,7 +16,9 @@ const HomeHero = () => {
               className="absolute hover:scale-110 transition-transform duration-600 object-cover"
             />
             <div className="absolute lg:bottom-8 lg:left-8 not-lg:bottom-4 not-lg:left-4 text-white flex flex-col justify-center items-start max-w-80">
-              <h1 className="text-3xl font-medium">Crimson Twilight Dreams</h1>
+              <h1 className="text-3xl not-sm:text-2xl font-medium">
+                Crimson Twilight Dreams
+              </h1>
               <p className="mt-4 text-sm font-light">From $580</p>
             </div>
           </div>
@@ -29,7 +31,7 @@ const HomeHero = () => {
               className="absolute hover:scale-110 transition-transform duration-600 object-cover"
             />
             <div className="absolute lg:bottom-8 lg:left-8 not-lg:bottom-4 not-lg:left-4 text-white flex flex-col justify-center items-start max-w-80">
-              <h1 className="text-3xl font-medium">
+              <h1 className="text-3xl not-sm:text-2xl font-medium">
                 Capturing The Beauty Of Nature
               </h1>
               <p className="mt-4 text-sm font-light">From $950</p>
@@ -45,9 +47,13 @@ const HomeHero = () => {
             className="absolute hover:scale-110 transition-transform duration-600 object-cover"
           />
           <div className="absolute lg:bottom-8 lg:left-8 not-lg:bottom-4 not-lg:left-4 text-white flex flex-col justify-center items-start max-w-80">
-            <h1 className="text-4xl font-medium">Bringing Art To Life</h1>
-            <p className="mt-4 mb-4 text-xl font-light">From $1,460</p>
-            <button className="bg-white text-black px-9 py-3 text-lg font-normal hover:bg-black hover:text-white transition-colors duration-300">
+            <h1 className="text-4xl not-sm:text-2xl font-medium">
+              Bringing Art To Life
+            </h1>
+            <p className="mt-4 mb-4 text-xl not-sm:text-sm font-light">
+              From $1,460
+            </p>
+            <button className="bg-white text-black px-9 py-3 not-sm:px-5 not-sm:py-2 text-lg not-sm:text-md font-normal hover:bg-black hover:text-white transition-colors duration-300">
               View Detail
             </button>
           </div>

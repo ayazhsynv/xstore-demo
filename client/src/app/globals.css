@@ -8,5 +8,5 @@
 }
 
 .page-container {
-  @apply 2xl:mx-36 flex flex-col;
+  @apply 2xl:mx-36 not-2xl:px-4 flex flex-col;
 }

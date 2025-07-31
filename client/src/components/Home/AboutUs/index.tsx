@@ -6,6 +6,7 @@ const HomeAbout = () => {
   return (
     <div className="page-container">
       <div className="my-40 not-lg:my-16 flex flex-wrap">
+        {/* About Image Section */}
         <div className="md:basis-1/2 not-md:basis-full p-4">
           <div className="relative xl:h-[42vw] lg:h-[50vw] md:h-[60vw] h-[100vw] ">
             <Image
@@ -16,7 +17,7 @@ const HomeAbout = () => {
             />
           </div>
         </div>
-
+        {/* About Text Section */}
         <div className="md:basis-1/2 not-md:basis-full flex flex-col justify-center items-end not-md:items-center p-4">
           <div className="flex flex-col max-w-132">
             <div className="w-32 h-0.5 mb-5 bg-black"></div>

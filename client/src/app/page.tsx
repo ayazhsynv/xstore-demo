@@ -1,6 +1,8 @@
 import HomeAbout from "@/components/Home/AboutUs";
+import HomeFeatured from "@/components/Home/Featured";
 import HomeHero from "@/components/Home/Hero";
 import HomeTrending from "@/components/Home/Trending";
+import HomeUpcoming from "@/components/Home/Upcoming";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <HomeHero />
       <HomeTrending />
       <HomeAbout />
+      <HomeFeatured />
+      <HomeUpcoming />
     </div>
   );
 }

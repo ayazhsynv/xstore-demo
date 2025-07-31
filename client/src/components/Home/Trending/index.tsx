@@ -18,7 +18,7 @@ const HomeTrending = () => {
       {/* Trending Products Flexbox */}
       <div className="flex flex-wrap justify-between">
         {/* Product Card */}
-        <div className="flex flex-col p-4 items-start justify-center relative lg:basis-1/4 md:basis-1/2 sm:basis-full not-sm:basis-full">
+        <div className="flex flex-col p-4 items-start justify-center relative lg:basis-1/4 md:basis-1/2 sm:basis-full not-sm:basis-full cursor-pointer">
           <div className="w-full h-96 relative mb-8 group overflow-hidden">
             <Image
               src="/images/trending-product-1.png"
@@ -61,7 +61,7 @@ const HomeTrending = () => {
           </p>
         </div>
         {/* Product Card */}
-        <div className="flex flex-col p-4 items-start justify-center relative lg:basis-1/4 md:basis-1/2 sm:basis-full not-sm:basis-full">
+        <div className="flex flex-col p-4 items-start justify-center relative lg:basis-1/4 md:basis-1/2 sm:basis-full not-sm:basis-full cursor-pointer">
           <div className="w-full h-96 relative mb-8 group overflow-hidden">
             <Image
               src="/images/trending-product-1.png"
@@ -104,7 +104,7 @@ const HomeTrending = () => {
           </p>
         </div>
         {/* Product Card */}
-        <div className="flex flex-col p-4 items-start justify-center relative lg:basis-1/4 md:basis-1/2 sm:basis-full not-sm:basis-full">
+        <div className="flex flex-col p-4 items-start justify-center relative lg:basis-1/4 md:basis-1/2 sm:basis-full not-sm:basis-full cursor-pointer">
           <div className="w-full h-96 relative mb-8 group overflow-hidden">
             <Image
               src="/images/trending-product-1.png"
@@ -147,7 +147,7 @@ const HomeTrending = () => {
           </p>
         </div>
         {/* Product Card */}
-        <div className="flex flex-col p-4 items-start justify-center relative lg:basis-1/4 md:basis-1/2 sm:basis-full not-sm:basis-full">
+        <div className="flex flex-col p-4 items-start justify-center relative lg:basis-1/4 md:basis-1/2 sm:basis-full not-sm:basis-full cursor-pointer">
           <div className="w-full h-96 relative mb-8 group overflow-hidden">
             <Image
               src="/images/trending-product-1.png"
