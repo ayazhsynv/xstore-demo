@@ -25,12 +25,12 @@ const HomeAbout = () => {
               XStore Elementor Painting Studio Demo
             </h1>
             <p className="text-md text-grey-text mt-5">
-              our mission is to inspire creativity and foster a deep
+              Our mission is to inspire creativity and foster a deep
               appreciation for the craft of oil painting. We believe that oil
               painting is more than just a technique—it's a way to express
               emotions.
             </p>
-            <button className="mt-8 max-w-46 border border-black uppercase px-12 py-5">
+            <button className="mt-8 max-w-50 border border-black hover:text-white hover:bg-black transition duration-500 ease-in-out cursor-pointer uppercase px-11 py-4">
               <Link href="/about" className="text-md font-normal ">
                 About Us
               </Link>

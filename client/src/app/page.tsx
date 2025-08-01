@@ -1,4 +1,5 @@
 import HomeAbout from "@/components/Home/AboutUs";
+import HomeAward from "@/components/Home/Award";
 import HomeFeatured from "@/components/Home/Featured";
 import HomeHero from "@/components/Home/Hero";
 import HomeTrending from "@/components/Home/Trending";
@@ -12,6 +13,7 @@ export default function Home() {
       <HomeAbout />
       <HomeFeatured />
       <HomeUpcoming />
+      <HomeAward />
     </div>
   );
 }
