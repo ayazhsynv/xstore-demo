@@ -10,3 +10,29 @@
 .page-container {
   @apply 2xl:mx-36 not-2xl:px-4 flex flex-col;
 }
+
+/* Swiper Custom Styles */
+.testimonial-swiper .swiper-pagination {
+  position: static !important;
+  margin-top: 2rem;
+}
+
+.testimonial-swiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #d1d5db;
+  opacity: 1;
+  margin: 0 6px;
+  border-radius: 0%;
+  transition: all 0.3s ease;
+}
+
+.testimonial-swiper .swiper-pagination-bullet-active {
+  background-color: #000;
+  transform: scale(1.2);
+}
+
+.testimonial-swiper .swiper-button-prev,
+.testimonial-swiper .swiper-button-next {
+  display: none;
+}

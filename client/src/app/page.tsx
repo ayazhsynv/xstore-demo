@@ -3,6 +3,7 @@ import HomeAward from "@/components/Home/Award";
 import HomeBlog from "@/components/Home/Blog";
 import HomeFeatured from "@/components/Home/Featured";
 import HomeHero from "@/components/Home/Hero";
+import HomeReview from "@/components/Home/Review";
 import HomeTrending from "@/components/Home/Trending";
 import HomeUpcoming from "@/components/Home/Upcoming";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <HomeUpcoming />
       <HomeAward />
       <HomeBlog />
+      <HomeReview />
     </div>
   );
 }
