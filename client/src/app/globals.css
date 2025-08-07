@@ -11,6 +11,10 @@
   @apply 2xl:mx-36 not-2xl:px-4 flex flex-col;
 }
 
+.sections-margin {
+  @apply mt-50 not-lg:mt-20;
+}
+
 /* Swiper Custom Styles */
 .testimonial-swiper .swiper-pagination {
   position: static !important;

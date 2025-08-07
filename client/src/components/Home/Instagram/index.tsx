@@ -4,7 +4,7 @@ import React from "react";
 const HomeInstagram = () => {
   return (
     <div className="xl:px-6">
-      <div className="mt-50 not-lg:mt-20 flex flex-col">
+      <div className="sections-margin flex flex-col">
         <div className="w-32 h-0.5 bg-black mb-6"></div>
         <h2 className="text-4xl font-regular mb-4">Our Instagram</h2>
         <div className="w-full flex flex-wrap justify-center h-100">

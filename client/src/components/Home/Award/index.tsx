@@ -5,7 +5,7 @@ import Link from "next/link";
 const HomeAward = () => {
   return (
     <div className="page-container">
-      <div className="mt-50 not-lg:mt-20 flex flex-wrap justify-between items-center">
+      <div className="sections-margin flex flex-wrap justify-between items-center">
         <div className="basis-1/2 not-md:basis-full max-w-140 not-lg:max-w-full h-[42vw] relative">
           <Image
             src="/images/award-image.png"

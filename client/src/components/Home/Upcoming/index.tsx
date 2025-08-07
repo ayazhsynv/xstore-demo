@@ -14,7 +14,7 @@ const HomeUpcoming = () => {
   return (
     <div className="w-full">
       {/* Upcoming Event Section */}
-      <div className="mt-50 not-lg:mt-20 h-124 relative">
+      <div className="sections-margin h-124 relative">
         {/* Swiper */}
         <Swiper spaceBetween={50} slidesPerView={1} className="h-full">
           {/* Swiper Slides */}

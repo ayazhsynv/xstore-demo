@@ -64,7 +64,7 @@ const HomeTrending = () => {
         <div className="flex flex-col p-4 items-start justify-center relative lg:basis-1/4 md:basis-1/2 sm:basis-full not-sm:basis-full cursor-pointer">
           <div className="w-full h-96 relative mb-8 group overflow-hidden">
             <Image
-              src="/images/trending-product-1.png"
+              src="/images/instagram-image-6.png"
               alt="Trending Product 1"
               fill
               className="absolute object-cover transition-transform duration-500 group-hover:scale-110"
@@ -92,22 +92,19 @@ const HomeTrending = () => {
           </div>
           <Link href="#">
             <h2 className="text-xl font-medium mb-2.5 px-5">
-              Crimson Twilight Dreams
+              Golden Sunset Horizon
             </h2>
           </Link>
           <p className="text-[15px] font-light text-grey-text mb-4 px-5">
-            Majestic Landscapes
+            Elegant Portraits
           </p>
-          <p className="text-2xl font-light px-5 word-spacing">
-            <span className="line-through">$1,750.00 </span>
-            $1,450.00
-          </p>
+          <p className="text-2xl font-light px-5 word-spacing">$2,050.00</p>
         </div>
         {/* Product Card */}
         <div className="flex flex-col p-4 items-start justify-center relative lg:basis-1/4 md:basis-1/2 sm:basis-full not-sm:basis-full cursor-pointer">
           <div className="w-full h-96 relative mb-8 group overflow-hidden">
             <Image
-              src="/images/trending-product-1.png"
+              src="/images/homeblog-image-1.png"
               alt="Trending Product 1"
               fill
               className="absolute object-cover transition-transform duration-500 group-hover:scale-110"
@@ -135,22 +132,19 @@ const HomeTrending = () => {
           </div>
           <Link href="#">
             <h2 className="text-xl font-medium mb-2.5 px-5">
-              Crimson Twilight Dreams
+              Eternal Blooming Blossom
             </h2>
           </Link>
           <p className="text-[15px] font-light text-grey-text mb-4 px-5">
             Majestic Landscapes
           </p>
-          <p className="text-2xl font-light px-5 word-spacing">
-            <span className="line-through">$1,750.00 </span>
-            $1,450.00
-          </p>
+          <p className="text-2xl font-light px-5 word-spacing">$1,850.00</p>
         </div>
         {/* Product Card */}
         <div className="flex flex-col p-4 items-start justify-center relative lg:basis-1/4 md:basis-1/2 sm:basis-full not-sm:basis-full cursor-pointer">
           <div className="w-full h-96 relative mb-8 group overflow-hidden">
             <Image
-              src="/images/trending-product-1.png"
+              src="/images/instagram-image-1.png"
               alt="Trending Product 1"
               fill
               className="absolute object-cover transition-transform duration-500 group-hover:scale-110"
@@ -178,16 +172,13 @@ const HomeTrending = () => {
           </div>
           <Link href="#">
             <h2 className="text-xl font-medium mb-2.5 px-5">
-              Crimson Twilight Dreams
+              Autumn Woodland Pathway
             </h2>
           </Link>
           <p className="text-[15px] font-light text-grey-text mb-4 px-5">
-            Majestic Landscapes
+            Vibrant Still Life
           </p>
-          <p className="text-2xl font-light px-5 word-spacing">
-            <span className="line-through">$1,750.00 </span>
-            $1,450.00
-          </p>
+          <p className="text-2xl font-light px-5 word-spacing">$3,650.00</p>
         </div>
       </div>
     </div>

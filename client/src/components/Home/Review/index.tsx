@@ -36,7 +36,7 @@ const HomeReview = () => {
 
   return (
     <div className="page-container">
-      <div className="flex flex-col justify-center items-center mt-50 not-lg:mt-20">
+      <div className="flex flex-col justify-center items-center sections-margin">
         <div className="w-32 h-0.5 bg-black mb-8"></div>
         <h2 className="text-4xl font-regular mb-4">
           What Our Collectors Are Saying

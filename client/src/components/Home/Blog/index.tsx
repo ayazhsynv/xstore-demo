@@ -5,7 +5,7 @@ import React from "react";
 const HomeBlog = () => {
   return (
     <div className="page-container">
-      <div className="flex flex-col items-center justify-center mt-50 not-lg:mt-20 py-10">
+      <div className="flex flex-col items-center justify-center sections-margin py-10">
         {/* Blog Section Header */}
         <div className="w-32 h-0.5 mb-5 bg-black"></div>
         <h1 className="text-4xl font-semibold mb-5">Latest From Blog</h1>
